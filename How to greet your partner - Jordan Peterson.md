@@ -1,3 +1,5 @@
+https://www.youtube.com/shorts/rfb_wZhxn8A
+
 This short video featuring Jordan Peterson focuses on the appropriate way to greet your partner after a workday, emphasizing the importance of managing initial interactions:
 
 Negotiation and Understanding in Relationships: Peterson highlights the need for couples to negotiate how they greet each other, suggesting that mutual understanding is crucial in managing daily stress.
