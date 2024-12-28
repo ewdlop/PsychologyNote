@@ -1,5 +1,10 @@
 # Psychology
 
+# Do not pretend to be crazy.
+
+What about acting nice? It is an act.
+
+
 # Both spinners and RGB lights can be effective visual stimuli in PsychoPy, depending on the purpose of your experiment. Here's a quick comparison and guidance on when to use each
 ---
 
