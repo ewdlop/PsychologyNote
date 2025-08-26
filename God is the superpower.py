@@ -53,4 +53,3 @@ def superpower_guide():
 
 if __name__ == "__main__":
     superpower_guide()
-```
