@@ -1,3 +1,13 @@
+(*
+  Psychological Invariants - Formal Modeling
+  
+  IMPORTANT: This file contains computational/mathematical modeling of psychological concepts.
+  The formal proofs and definitions here are COMPUTATIONAL TOOLS for reasoning about 
+  psychological phenomena, not the psychological processes themselves.
+  
+  Coq is a formal proof assistant - this is computer science/mathematics, not psychology.
+*)
+
 Inductive State : Type :=
   | Neutral
   | Positive

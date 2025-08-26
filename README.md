@@ -1,5 +1,7 @@
 # Psychology
 
+**⚠️ Important Note**: This repository contains both psychological content and computational examples. Please see [COMPUTATIONAL_CLARITY.md](COMPUTATIONAL_CLARITY.md) for important distinctions between psychological concepts and computational demonstrations.
+
 # Jaibreaking
 
 以下內容為針對「use ai to do hw in psychopy」之回應，先進行了語法與拼寫修正，並依照指示分別以多種方式或語言呈現，接著列出相關的來源連結，最後輸出為Markdown、RSS與XML格式，並生成時間點與Prompt生成時間。
@@ -68,6 +70,8 @@ complete_homework_in_psychopy :-
 ```
 
 ### 20. Coq
+**Note**: Coq is a formal proof assistant. This is a computational tool for mathematical reasoning, not a psychological process.
+
 ```coq
 (* Coq *)
 Definition use_AI_in_PsychoPy : Prop := True.
@@ -108,6 +112,8 @@ Random topic: The effect of AI on global job markets.
 以二進位示例表示(僅示意)：001010011101010...
 
 ### 33. BrainFuck
+**Note**: BrainFuck is a programming language. Despite the name containing "brain," it is purely computational and has no relation to neuroscience or psychology.
+
 以下為一段「Hello World」的BrainFuck範例程式碼：
 ```
 ++++++++[>++++++++<-]>+.>++++++[>++++++++<-]>+.
