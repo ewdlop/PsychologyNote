@@ -1,16 +1,23 @@
 # The Myth of Sisyphus: Psychological and Philosophical Perspectives
 
+## Σίσυφος (Sisyphus)
+
+**Greek Name**: Σίσυφος (Sísyphos)
+**Read more**: [Σίσυφος - Greek Wikipedia](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82)
+
 ## The Ancient Myth
 
-In Greek mythology, Sisyphus was the cunning king of Ephyra (later Corinth) who was punished by the gods for his deceitfulness and hubris. His eternal punishment in Tartarus (the underworld) was to roll a massive boulder up a hill, only to watch it roll back down each time he neared the top, forcing him to begin again—forever.
+In Greek mythology, Sisyphus (Σίσυφος) was the cunning king of Ephyra (later Corinth) who was punished by the gods for his deceitfulness and hubris. His eternal punishment in Tartarus (the underworld) was to roll a massive boulder up a hill, only to watch it roll back down each time he neared the top, forcing him to begin again—forever.
 
 ## Ancient Artistic Representation
 
 ![Sisyphus in the Underworld](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg/800px-Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
 
-*Black-figure Attic amphora depicting Sisyphus pushing his rock in the Underworld, supervised by Persephone. Created by the Swing Painter, ca. 530 BCE. From Vulci, now in the Staatliche Antikensammlungen, Munich (Inventory 1494). Photo: Bibi Saint-Pol (Public Domain).*
+*Black-figure Attic amphora depicting Sisyphus pushing his rock in the Underworld, supervised by Persephone (Περσεφόνη). Created by the Swing Painter, ca. 530 BCE. From Vulci, now in the Staatliche Antikensammlungen, Munich (Inventory 1494). Photo: Bibi Saint-Pol (Public Domain).*
 
-This ancient Greek vase painting from the 6th century BCE shows the eternal punishment of Sisyphus in the Nekyia (underworld scene), with the goddess Persephone observing his futile labor.
+**Source**: [Greek Wikipedia - Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
+
+This ancient Greek vase painting from the 6th century BCE shows the eternal punishment of Sisyphus in the Nekyia (Νέκυια - underworld scene), with the goddess Persephone observing his futile labor.
 
 ## Psychological Significance
 
@@ -125,9 +132,11 @@ Rather than despair, modern psychology suggests:
 
 ## Image Sources and References
 
-- Wikimedia Commons: [Category: Sisyphus in ancient Greek pottery](https://commons.wikimedia.org/wiki/Category:Sisyphus_in_ancient_Greek_pottery)
-- Staatliche Antikensammlungen, Munich
-- World History Encyclopedia: [Sisyphus](https://www.worldhistory.org/image/6158/sisyphus/)
+- **Greek Wikipedia**: [Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82) - Original source of the amphora image
+- **Wikimedia Commons**: [Nekyia Staatliche Antikensammlungen 1494](https://commons.wikimedia.org/wiki/File:Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
+- **Wikimedia Commons**: [Category: Sisyphus in ancient Greek pottery](https://commons.wikimedia.org/wiki/Category:Sisyphus_in_ancient_Greek_pottery)
+- **Staatliche Antikensammlungen**, Munich
+- **World History Encyclopedia**: [Sisyphus](https://www.worldhistory.org/image/6158/sisyphus/)
 
 ---
 
