@@ -425,7 +425,8 @@ def save_experiment_data():
     
     # Clean participant ID for filename (remove spaces and special chars)
     safe_participant_id = ''.join(c if c.isalnum() else '_' for c in participant_id)
-    if not safe_participant_id or not any(c.isalnum() for c in participant_id):
+    # Use 'unknown' if empty or contains no alphanumeric characters
+    if not participant_id or not any(c.isalnum() for c in participant_id):
         safe_participant_id = 'unknown'
     
     base_filename = f"participant_{safe_participant_id}_session_{session}_{timestamp}"
