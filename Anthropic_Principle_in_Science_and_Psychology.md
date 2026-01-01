@@ -81,7 +81,7 @@ PsychoPy experiments embody anthropic considerations:
 ### 1. Observer-Dependent Perception
 Demonstrate how observation changes perception through:
 - Binocular rivalry experiments
-- Ambiguous figures (Necker cube, Rubin vase)
+- Ambiguous figure (Necker cube)
 - Change blindness studies
 
 ### 2. Self-Reference Tasks
