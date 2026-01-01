@@ -312,27 +312,8 @@ def show_pyramid_scheme_people():
 # Main program
 def main():
     """Main program loop"""
-    view_mode = "pyramid"  # "pyramid" or "scheme"
-    
-    running = True
-    while running:
-        if view_mode == "pyramid":
-            show_pyramid()
-            
-            # Check if user wants to see pyramid scheme view
-            keys = event.getKeys()
-            if 'p' in keys:
-                view_mode = "scheme"
-                continue
-            else:
-                running = False
-        
-        elif view_mode == "scheme":
-            continue_running = show_pyramid_scheme_people()
-            if continue_running:
-                view_mode = "pyramid"
-            else:
-                running = False
+    # Show the pyramid visualization
+    show_pyramid()
     
     # Clean up
     win.close()
