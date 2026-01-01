@@ -1,3 +1,4 @@
+# Python
 # Experiment data files
 experiment_data/
 
@@ -7,6 +8,15 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Data files
+data/
+
+# PsychoPy
+*.psydat
+*.log
+
+# OS
 *.egg-info/
 dist/
 build/
