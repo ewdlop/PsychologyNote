@@ -27,6 +27,9 @@ TRIAL_2_DURATION = 20  # Ambiguous perception trial duration
 TRIAL_3_TRIALS = 5     # Number of change blindness trials
 TRIAL_4_DURATION = 30  # Metacognition trial duration
 
+# --- Color Constants ---
+CHANGE_BLINDNESS_COLORS = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
+
 # --- Configuration Dialog ---
 exp_info = {
     'Participant ID': '',
@@ -123,11 +126,6 @@ necker_cube = [
     visual.Line(win, start=start, end=end, lineColor='white', lineWidth=3)
     for start, end in necker_lines
 ]
-
-# Change blindness stimuli
-scene_a = visual.Rect(win, width=0.3, height=0.3, pos=[-0.2, 0], fillColor='red')
-scene_b = visual.Rect(win, width=0.3, height=0.3, pos=[0.2, 0], fillColor='blue')
-scene_change = visual.Rect(win, width=0.3, height=0.3, pos=[-0.2, 0], fillColor='green')  # Changed element
 
 # Response recording
 response_text = visual.TextStim(
@@ -340,8 +338,7 @@ def trial_3_change_blindness():
 
     correct_detections = 0
     
-    # Color options for randomization
-    colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
+    # Position options
     positions = [[-0.2, 0], [0.2, 0]]
 
     for trial in range(TRIAL_3_TRIALS):
@@ -350,7 +347,7 @@ def trial_3_change_blindness():
         
         # Randomize which square changes and what colors are used
         change_side = np.random.choice(['left', 'right'])
-        color1, color2, color3 = np.random.choice(colors, size=3, replace=False)
+        color1, color2, color3 = np.random.choice(CHANGE_BLINDNESS_COLORS, size=3, replace=False)
         
         # Create squares for this trial
         if change_side == 'left':
@@ -535,5 +532,8 @@ if __name__ == '__main__':
             save_data_to_file()
         except Exception:
             pass  # Ignore errors if data was already saved or window was never created
-        win.close()
+        try:
+            win.close()
+        except Exception:
+            pass  # Window may not have been created yet
         core.quit()
