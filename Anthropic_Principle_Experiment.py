@@ -28,7 +28,9 @@ TRIAL_3_TRIALS = 5     # Number of change blindness trials
 TRIAL_4_DURATION = 30  # Metacognition trial duration
 
 # --- Color Constants ---
+# At least 3 colors needed for change blindness trial
 CHANGE_BLINDNESS_COLORS = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
+assert len(CHANGE_BLINDNESS_COLORS) >= 3, "CHANGE_BLINDNESS_COLORS must have at least 3 colors"
 
 # --- Configuration Dialog ---
 exp_info = {
@@ -337,6 +339,7 @@ def trial_3_change_blindness():
     )
 
     correct_detections = 0
+    clock = core.Clock()  # Track timing for this trial
     
     # Position options
     positions = [[-0.2, 0], [0.2, 0]]
@@ -404,7 +407,7 @@ def trial_3_change_blindness():
         
         # Save trial data
         save_data_record('change_blindness', 3, f'trial_{trial+1}', 
-                        f'correct:{is_correct},side:{change_side}', trial)
+                        f'correct:{is_correct},side:{change_side}', clock.getTime())
 
         show_instructions(
             feedback + "\n\nPress SPACE for next trial"
@@ -422,7 +425,7 @@ def trial_3_change_blindness():
     
     # Save summary data
     save_data_record('change_blindness', 3, 'summary', 
-                    f'correct:{correct_detections},total:{TRIAL_3_TRIALS}', TRIAL_3_TRIALS)
+                    f'correct:{correct_detections},total:{TRIAL_3_TRIALS}', clock.getTime())
 
 def trial_4_metacognition():
     """
