@@ -1,9 +1,27 @@
 # Python
+# Experiment data files
+experiment_data/
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Data files
+data/
+
+# PsychoPy
+*.psydat
+*.log
+
+# OS
+*.egg-info/
+dist/
+build/
+
+# IDEs
 build/
 develop-eggs/
 dist/
@@ -34,14 +52,11 @@ env/
 *~
 
 # OS
-.DS_Store
-Thumbs.db
 
-# PsychoPy
+# PsychoPy data files
 *.psydat
 *.log
-.psychopy3/
 
-# Temporary files
-*.tmp
-*.bak
+# OS files
+.DS_Store
+Thumbs.db
