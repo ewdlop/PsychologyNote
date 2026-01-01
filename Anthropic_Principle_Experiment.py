@@ -18,6 +18,7 @@ active construction, constrained by our cognitive architecture.
 from psychopy import visual, core, event, gui
 import numpy as np
 import os
+import csv
 from datetime import datetime
 
 # --- Timing Constants ---
@@ -160,7 +161,6 @@ def save_data_to_file():
     if not data_records:
         return
     
-    import csv
     with open(data_filename, 'w', newline='') as f:
         fieldnames = ['participant_id', 'age', 'session', 'trial_name', 
                      'trial_number', 'event_type', 'event_data', 'timestamp']
@@ -182,7 +182,9 @@ def show_instructions(text, wait_for_key=True, duration=None):
     if duration is not None:
         core.wait(duration)
     elif wait_for_key:
-        event.waitKeys(keyList=['space', 'escape'])
+        keys = event.waitKeys(keyList=['space', 'escape'])
+        if 'escape' in keys:
+            check_escape()  # This will save and quit
     # If neither duration nor wait_for_key, return immediately
 
 def show_fixation(duration=1.0):
@@ -523,7 +525,7 @@ if __name__ == '__main__':
         # Ensure the window is closed and data is saved even if an error occurs
         try:
             save_data_to_file()
-        except:
+        except Exception:
             pass  # Data may already be saved or file not created
         win.close()
         core.quit()
