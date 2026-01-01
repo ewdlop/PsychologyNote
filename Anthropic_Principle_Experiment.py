@@ -184,7 +184,10 @@ def show_instructions(text, wait_for_key=True, duration=None):
     elif wait_for_key:
         keys = event.waitKeys(keyList=['space', 'escape'])
         if 'escape' in keys:
-            check_escape()  # This will save and quit
+            # Save data and exit gracefully
+            save_data_to_file()
+            win.close()
+            core.quit()
     # If neither duration nor wait_for_key, return immediately
 
 def show_fixation(duration=1.0):
@@ -384,11 +387,16 @@ def trial_3_change_blindness():
         core.wait(0.5)
 
         # Collect response
-        instructions.text = "Which square changed?\nPress 'L' for LEFT or 'R' for RIGHT"
+        instructions.text = "Which square changed?\nPress 'L' for LEFT or 'R' for RIGHT (or ESC to exit)"
         instructions.draw()
         win.flip()
 
-        keys = event.waitKeys(keyList=['l', 'r'])
+        keys = event.waitKeys(keyList=['l', 'r', 'escape'])
+        if 'escape' in keys:
+            save_data_to_file()
+            win.close()
+            core.quit()
+        
         is_correct = correct_answer in keys
         
         if is_correct:
@@ -526,6 +534,6 @@ if __name__ == '__main__':
         try:
             save_data_to_file()
         except Exception:
-            pass  # Data may already be saved or file not created
+            pass  # Ignore errors if data was already saved or window was never created
         win.close()
         core.quit()
