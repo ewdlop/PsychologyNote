@@ -1,0 +1,16 @@
+# Experiment data files
+experiment_data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PsychoPy data files
+*.psydat
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
