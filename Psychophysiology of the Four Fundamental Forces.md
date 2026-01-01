@@ -59,7 +59,7 @@ Gravity is the weakest of the four fundamental forces, yet it dominates at cosmi
 ## 2. Electromagnetism: The Force of Connection and Communication
 
 ### Physical Nature
-Electromagnetism governs the interaction between charged particles. It's responsible for light, electricity, magnetism, and chemical bonds. This force is 10³⁶ times stronger than gravity and operates through photon exchange.
+Electromagnetism governs the interaction between charged particles. It's responsible for light, electricity, magnetism, and chemical bonds. This force is approximately 10³⁶ times stronger than gravity at atomic scales (though force strengths vary by context and distance), and operates through photon exchange.
 
 ### Physiological Impact
 
@@ -118,7 +118,7 @@ Electromagnetism governs the interaction between charged particles. It's respons
 ## 3. Strong Nuclear Force: The Force of Cohesion and Identity
 
 ### Physical Nature
-The strong nuclear force binds quarks together to form protons and neutrons, and binds these nucleons together in atomic nuclei. It's the strongest force (100 times stronger than electromagnetism) but operates only at subatomic distances (10⁻¹⁵ meters).
+The strong nuclear force binds quarks together to form protons and neutrons, and binds these nucleons together in atomic nuclei. It's the strongest force (approximately 100 times stronger than electromagnetism at nuclear distances) but operates only at subatomic scales (10⁻¹⁵ meters), beyond which it rapidly diminishes.
 
 ### Physiological Impact
 
@@ -285,7 +285,7 @@ The body's systems operate through complex interactions parallel to fundamental 
 **Quantum Biology:**
 - Quantum effects in photosynthesis
 - Potential quantum processes in avian magnetoreception
-- Controversial theories of quantum consciousness
+- Highly speculative theories of quantum consciousness (currently lack scientific consensus and empirical support)
 
 **Bioelectromagnetics:**
 - Cellular response to electromagnetic fields
