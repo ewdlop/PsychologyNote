@@ -31,6 +31,19 @@ TRIAL_4_DURATION = 30  # Metacognition trial duration
 # At least 3 colors needed for change blindness trial
 CHANGE_BLINDNESS_COLORS = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
 assert len(CHANGE_BLINDNESS_COLORS) >= 3, "CHANGE_BLINDNESS_COLORS must have at least 3 colors"
+import json
+import csv
+from datetime import datetime
+import os
+
+# --- Window Setup ---
+# Create window first to ensure proper cleanup if dialog is cancelled
+win = visual.Window(
+    size=[1024, 768],
+    color=[0, 0, 0],
+    units='height',
+    fullscr=False
+)
 
 # --- Configuration Dialog ---
 exp_info = {
@@ -54,6 +67,25 @@ data_filename = os.path.join(
     data_dir,
     f"anthropic_exp_P{exp_info['Participant ID']}_S{exp_info['Session']}_{timestamp}.csv"
 )
+    win.close()
+    core.quit()
+
+# --- Data Recording Setup ---
+experiment_data = {
+    'participant_info': exp_info.copy(),
+    'start_time': datetime.now().isoformat(),
+    'trials': {
+        'trial_1_observer_selection': {},
+        'trial_2_ambiguous_perception': {},
+        'trial_3_change_blindness': {},
+        'trial_4_metacognition': {}
+    }
+}
+
+# Create data directory if it doesn't exist
+data_dir = 'experiment_data'
+if not os.path.exists(data_dir):
+    os.makedirs(data_dir)
 
 # --- Window Setup ---
 win = visual.Window(
@@ -271,6 +303,12 @@ def trial_1_observer_selection():
     
     # Save summary data
     save_data_record('observer_selection', 1, 'summary', f'total_responses:{len(responses)}', clock.getTime())
+    # Record trial data
+    experiment_data['trials']['trial_1_observer_selection'] = {
+        'responses': responses,
+        'total_switches': len(responses),
+        'trial_duration': 15
+    }
 
 def trial_2_ambiguous_perception():
     """
@@ -326,6 +364,11 @@ def trial_2_ambiguous_perception():
     
     # Save summary data
     save_data_record('ambiguous_perception', 2, 'summary', f'total_flips:{flip_count}', clock.getTime())
+    # Record trial data
+    experiment_data['trials']['trial_2_ambiguous_perception'] = {
+        'flip_count': flip_count,
+        'trial_duration': 20
+    }
 
 def trial_3_change_blindness():
     """
@@ -347,6 +390,8 @@ def trial_3_change_blindness():
     
     # Position options
     positions = [[-0.2, 0], [0.2, 0]]
+    trials = 5
+    trial_responses = []
 
     for trial in range(TRIAL_3_TRIALS):
         check_escape()
@@ -403,6 +448,8 @@ def trial_3_change_blindness():
         
         is_correct = correct_answer in keys
         
+        keys = event.waitKeys(keyList=['l', 'r'])
+        is_correct = 'l' in keys
         if is_correct:
             correct_detections += 1
             feedback = "Correct!"
@@ -412,6 +459,14 @@ def trial_3_change_blindness():
         # Save trial data
         save_data_record('change_blindness', 3, f'trial_{trial+1}', 
                         f'correct:{is_correct},side:{change_side}', clock.getTime())
+            feedback = "Incorrect. The LEFT square changed from RED to GREEN."
+        
+        # Record trial response
+        trial_responses.append({
+            'trial_number': trial + 1,
+            'response': keys[0],
+            'correct': is_correct
+        })
 
         show_instructions(
             feedback + "\n\nPress SPACE for next trial"
@@ -430,6 +485,13 @@ def trial_3_change_blindness():
     # Save summary data
     save_data_record('change_blindness', 3, 'summary', 
                     f'correct:{correct_detections},total:{TRIAL_3_TRIALS}', clock.getTime())
+    # Record trial data
+    experiment_data['trials']['trial_3_change_blindness'] = {
+        'total_trials': trials,
+        'correct_detections': correct_detections,
+        'accuracy': correct_detections / trials if trials > 0 else 0,
+        'trial_responses': trial_responses
+    }
 
 def trial_4_metacognition():
     """
@@ -485,6 +547,76 @@ def trial_4_metacognition():
     
     # Save summary data
     save_data_record('metacognition', 4, 'summary', 'completed', clock.getTime())
+    # Record trial data
+    experiment_data['trials']['trial_4_metacognition'] = {
+        'duration': 30,
+        'prompts_shown': len(prompts),
+        'completed': True
+    }
+
+# --- Data Saving Functions ---
+
+def save_experiment_data():
+    """Save collected experiment data to JSON and CSV files"""
+    # Record end time
+    experiment_data['end_time'] = datetime.now().isoformat()
+    
+    # Generate unique filename based on participant ID and timestamp
+    participant_id = experiment_data['participant_info']['Participant ID']
+    session = experiment_data['participant_info']['Session']
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    
+    # Clean participant ID for filename (remove spaces and special chars)
+    safe_participant_id = ''.join(c if c.isalnum() else '_' for c in participant_id)
+    # Use 'unknown' if empty or contains no alphanumeric characters
+    if not participant_id or not any(c.isalnum() for c in participant_id):
+        safe_participant_id = 'unknown'
+    
+    base_filename = f"participant_{safe_participant_id}_session_{session}_{timestamp}"
+    
+    # Save as JSON (complete data structure)
+    json_filepath = os.path.join(data_dir, f"{base_filename}.json")
+    with open(json_filepath, 'w') as f:
+        json.dump(experiment_data, f, indent=2)
+    
+    # Save as CSV (flattened summary data)
+    csv_filepath = os.path.join(data_dir, f"{base_filename}.csv")
+    with open(csv_filepath, 'w', newline='') as f:
+        writer = csv.writer(f)
+        
+        # Write header
+        writer.writerow(['Section', 'Metric', 'Value'])
+        
+        # Write participant info
+        writer.writerow(['Participant Info', 'ID', participant_id])
+        writer.writerow(['Participant Info', 'Age', experiment_data['participant_info']['Age']])
+        writer.writerow(['Participant Info', 'Session', session])
+        writer.writerow(['Participant Info', 'Start Time', experiment_data['start_time']])
+        writer.writerow(['Participant Info', 'End Time', experiment_data['end_time']])
+        
+        # Write trial 1 data
+        trial1 = experiment_data['trials']['trial_1_observer_selection']
+        writer.writerow(['Trial 1 - Observer Selection', 'Total Switches', trial1['total_switches']])
+        writer.writerow(['Trial 1 - Observer Selection', 'Trial Duration', trial1['trial_duration']])
+        
+        # Write trial 2 data
+        trial2 = experiment_data['trials']['trial_2_ambiguous_perception']
+        writer.writerow(['Trial 2 - Ambiguous Perception', 'Flip Count', trial2['flip_count']])
+        writer.writerow(['Trial 2 - Ambiguous Perception', 'Trial Duration', trial2['trial_duration']])
+        
+        # Write trial 3 data
+        trial3 = experiment_data['trials']['trial_3_change_blindness']
+        writer.writerow(['Trial 3 - Change Blindness', 'Total Trials', trial3['total_trials']])
+        writer.writerow(['Trial 3 - Change Blindness', 'Correct Detections', trial3['correct_detections']])
+        writer.writerow(['Trial 3 - Change Blindness', 'Accuracy', f"{trial3['accuracy']:.2%}"])
+        
+        # Write trial 4 data
+        trial4 = experiment_data['trials']['trial_4_metacognition']
+        writer.writerow(['Trial 4 - Metacognition', 'Duration', trial4['duration']])
+        writer.writerow(['Trial 4 - Metacognition', 'Prompts Shown', trial4['prompts_shown']])
+        writer.writerow(['Trial 4 - Metacognition', 'Completed', trial4['completed']])
+    
+    return json_filepath, csv_filepath
 
 # --- Main Experiment Flow ---
 
@@ -510,6 +642,9 @@ def run_experiment():
     trial_2_ambiguous_perception()
     trial_3_change_blindness()
     trial_4_metacognition()
+    
+    # Save experiment data
+    json_file, csv_file = save_experiment_data()
 
     # Conclusion
     show_instructions(
@@ -522,6 +657,9 @@ def run_experiment():
         "In psychology, this means:\n"
         "All our experiments reveal human-universe interactions,\n"
         "not objective reality independent of observation.\n\n"
+        f"Your data has been saved to:\n"
+        f"• {os.path.basename(json_file)}\n"
+        f"• {os.path.basename(csv_file)}\n\n"
         "Thank you for participating!\n\n"
         "Press SPACE to exit"
     )
