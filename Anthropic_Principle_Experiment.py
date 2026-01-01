@@ -351,7 +351,7 @@ def trial_3_change_blindness():
     experiment_data['trials']['trial_3_change_blindness'] = {
         'total_trials': trials,
         'correct_detections': correct_detections,
-        'accuracy': correct_detections / trials,
+        'accuracy': correct_detections / trials if trials > 0 else 0,
         'trial_responses': trial_responses
     }
 
@@ -425,7 +425,7 @@ def save_experiment_data():
     
     # Clean participant ID for filename (remove spaces and special chars)
     safe_participant_id = ''.join(c if c.isalnum() else '_' for c in participant_id)
-    if not safe_participant_id:
+    if not safe_participant_id or not any(c.isalnum() for c in participant_id):
         safe_participant_id = 'unknown'
     
     base_filename = f"participant_{safe_participant_id}_session_{session}_{timestamp}"
