@@ -5,11 +5,11 @@ This experiment demonstrates the observer-dependent nature of reality through
 various perceptual phenomena that illustrate how the act of observation
 influences what is observed - a key insight from the Anthropic Principle.
 
-Experiment Components:
-1. Binocular Rivalry - Competing perceptions
-2. Necker Cube - Ambiguous figure reversals
-3. Change Blindness - What we don't observe doesn't "exist" for us
-4. Metacognitive Monitoring - Observing our own observations
+Perceptual demonstrations:
+1. Binocular Rivalry demonstration - competing perceptions
+2. Necker Cube demonstration - ambiguous figure reversals
+3. Change Blindness demonstration - what we don't observe doesn't "exist" for us
+4. Metacognitive Monitoring demonstration - observing our own observations
 
 The experiment illustrates that observation is not passive reception but
 active construction, constrained by our cognitive architecture.
