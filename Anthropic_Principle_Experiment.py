@@ -173,13 +173,17 @@ def show_instructions(text, wait_for_key=True, duration=None):
     
     Args:
         text: Text to display
-        wait_for_key: If True, wait for spacebar press (default)
-        duration: If specified, wait for this many seconds instead
+        wait_for_key: If True, wait for spacebar or escape press (default: True)
+        duration: If specified, wait for this many seconds instead of waiting for key.
+                 Takes precedence over wait_for_key.
+    
+    Note: If both duration is None and wait_for_key is False, returns immediately.
     """
     instructions.text = text
     instructions.draw()
     win.flip()
     if duration is not None:
+        # Duration takes precedence over wait_for_key
         core.wait(duration)
     elif wait_for_key:
         keys = event.waitKeys(keyList=['space', 'escape'])
@@ -533,10 +537,10 @@ if __name__ == '__main__':
         # Ensure the window is closed and data is saved even if an error occurs
         try:
             save_data_to_file()
-        except Exception:
-            pass  # Ignore errors if data was already saved or window was never created
+        except (NameError, AttributeError):
+            pass  # Ignore if data_filename or data_records don't exist (window never created)
         try:
             win.close()
-        except Exception:
-            pass  # Window may not have been created yet
+        except (NameError, AttributeError):
+            pass  # Ignore if window was never created
         core.quit()
