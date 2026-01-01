@@ -1,144 +1,144 @@
-# The Myth of Sisyphus: Psychological and Philosophical Perspectives
+# Ο Μύθος του Σίσυφου: Ψυχολογικές και Φιλοσοφικές Προοπτικές
 
-## Σίσυφος (Sisyphus)
+## Σίσυφος
 
-**Greek Name**: Σίσυφος (Sísyphos)
-**Read more**: [Σίσυφος - Greek Wikipedia](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82)
+**Ελληνικό Όνομα**: Σίσυφος (Sísyphos)
+**Διαβάστε περισσότερα**: [Σίσυφος - Ελληνική Βικιπαίδεια](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82)
 
-## The Ancient Myth
+## Ο Αρχαίος Μύθος
 
-In Greek mythology, Sisyphus (Σίσυφος) was the cunning king of Ephyra (later Corinth) who was punished by the gods for his deceitfulness and hubris. His eternal punishment in Tartarus (the underworld) was to roll a massive boulder up a hill, only to watch it roll back down each time he neared the top, forcing him to begin again—forever.
+Στην ελληνική μυθολογία, ο Σίσυφος ήταν ο πανούργος βασιλιάς της Εφύρας (αργότερα Κόρινθος) που τιμωρήθηκε από τους θεούς για την απατηλότητα και την ύβρη του. Η αιώνια τιμωρία του στον Τάρταρο (τον κάτω κόσμο) ήταν να κυλάει έναν τεράστιο βράχο επάνω σε έναν λόφο, μόνο για να τον βλέπει να κυλάει πίσω κάθε φορά που πλησίαζε στην κορυφή, αναγκάζοντάς τον να ξεκινά ξανά—για πάντα.
 
-## Ancient Artistic Representation
+## Αρχαία Καλλιτεχνική Αναπαράσταση
 
-![Sisyphus in the Underworld](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg/800px-Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
+![Ο Σίσυφος στον Κάτω Κόσμο](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg/800px-Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
 
-*Black-figure Attic amphora depicting Sisyphus pushing his rock in the Underworld, supervised by Persephone (Περσεφόνη). Created by the Swing Painter, ca. 530 BCE. From Vulci, now in the Staatliche Antikensammlungen, Munich (Inventory 1494). Photo: Bibi Saint-Pol (Public Domain).*
+*Μελανόμορφος αττικός αμφορέας που απεικονίζει τον Σίσυφο να σπρώχνει τον βράχο του στον Κάτω Κόσμο, υπό την επίβλεψη της Περσεφόνης. Δημιουργήθηκε από τον Ζωγράφο της Κούνιας, περίπου 530 π.Χ. Από τη Βούλτσι, τώρα στο Staatliche Antikensammlungen, Μόναχο (Απόθεμα 1494). Φωτογραφία: Bibi Saint-Pol (Κοινό Κτήμα).*
 
-**Source**: [Greek Wikipedia - Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
+**Πηγή**: [Ελληνική Βικιπαίδεια - Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
 
-This ancient Greek vase painting from the 6th century BCE shows the eternal punishment of Sisyphus in the Nekyia (Νέκυια - underworld scene), with the goddess Persephone observing his futile labor.
+Αυτή η αρχαία ελληνική αγγειογραφία από τον 6ο αιώνα π.Χ. δείχνει την αιώνια τιμωρία του Σίσυφου στη Νέκυια (σκηνή του κάτω κόσμου), με τη θεά Περσεφόνη να παρατηρεί τον μάταιο κόπο του.
 
-## Psychological Significance
+## Ψυχολογική Σημασία
 
-### 1. **The Absurd and Existentialism** (Albert Camus)
+### 1. **Το Παράλογο και ο Υπαρξισμός** (Άλμπερ Καμύ)
 
-French philosopher Albert Camus used Sisyphus as the central metaphor in his 1942 essay "The Myth of Sisyphus," which explores the concept of the absurd—the conflict between humanity's search for meaning and the universe's apparent meaninglessness.
+Ο Γάλλος φιλόσοφος Άλμπερ Καμύ χρησιμοποίησε τον Σίσυφο ως την κεντρική μεταφορά στο δοκίμιό του του 1942 "Ο Μύθος του Σίσυφου", το οποίο εξερευνά την έννοια του παράλογου—τη σύγκρουση μεταξύ της αναζήτησης νοήματος από τον άνθρωπο και της φαινομενικής έλλειψης νοήματος του σύμπαντος.
 
-**Key insights:**
-- **The Absurd Condition**: Life's repetitive, seemingly meaningless tasks mirror Sisyphus's eternal labor
-- **Consciousness and Rebellion**: Sisyphus is most tragic during his walk down the hill when he is fully conscious of his fate
-- **Finding Meaning**: Camus concludes "one must imagine Sisyphus happy"—meaning comes from the struggle itself, not the outcome
-- **Personal Autonomy**: By accepting and owning his fate, Sisyphus becomes master of his destiny
+**Βασικές ιδέες:**
+- **Η Παράλογη Κατάσταση**: Οι επαναλαμβανόμενες, φαινομενικά άνευ νοήματος εργασίες της ζωής αντικατοπτρίζουν τον αιώνιο μόχθο του Σίσυφου
+- **Συνείδηση και Ανταρσία**: Ο Σίσυφος είναι πιο τραγικός κατά τη διάρκεια της κάθοδού του από τον λόφο, όταν είναι πλήρως συνειδητός της μοίρας του
+- **Εύρεση Νοήματος**: Ο Καμύ καταλήγει "πρέπει να φανταστούμε τον Σίσυφο ευτυχισμένο"—το νόημα προέρχεται από τον ίδιο τον αγώνα, όχι από το αποτέλεσμα
+- **Προσωπική Αυτονομία**: Αποδεχόμενος και αναλαμβάνοντας τη μοίρα του, ο Σίσυφος γίνεται κύριος της τύχης του
 
-**Psychological application**: This framework helps individuals find meaning in repetitive work, chronic illness, or seemingly futile struggles by focusing on the journey rather than the destination.
+**Ψυχολογική εφαρμογή**: Αυτό το πλαίσιο βοηθά τα άτομα να βρουν νόημα σε επαναλαμβανόμενες εργασίες, χρόνιες ασθένειες ή φαινομενικά μάταιους αγώνες εστιάζοντας στην πορεία παρά στον προορισμό.
 
-### 2. **Repetition and the Human Condition**
+### 2. **Επανάληψη και η Ανθρώπινη Κατάσταση**
 
-The myth reflects universal psychological experiences:
+Ο μύθος αντανακλά καθολικές ψυχολογικές εμπειρίες:
 
-- **Daily Routines**: Wake, work, sleep, repeat—the structure of modern life
-- **Habit Formation**: The psychological battle between immediate gratification and long-term goals
-- **Learned Helplessness**: When efforts repeatedly fail, leading to depression and passivity (the opposite of Camus's empowered Sisyphus)
-- **Resilience and Grit**: The ability to persist despite setbacks
+- **Καθημερινές Ρουτίνες**: Ξύπνημα, δουλειά, ύπνος, επανάληψη—η δομή της σύγχρονης ζωής
+- **Διαμόρφωση Συνηθειών**: Η ψυχολογική μάχη μεταξύ άμεσης ικανοποίησης και μακροπρόθεσμων στόχων
+- **Μαθημένη Αβοηθησία**: Όταν οι προσπάθειες αποτυγχάνουν επανειλημμένα, οδηγώντας σε κατάθλιψη και παθητικότητα (το αντίθετο του ενδυναμωμένου Σίσυφου του Καμύ)
+- **Ανθεκτικότητα και Επιμονή**: Η ικανότητα να επιμένεις παρά τις αντιξοότητες
 
-### 3. **Therapeutic Applications**
+### 3. **Θεραπευτικές Εφαρμογές**
 
-**Cognitive Behavioral Therapy (CBT)**:
-- Reframing "pointless" tasks as opportunities for growth
-- Finding meaning in process rather than outcomes
-- Building tolerance for frustration
+**Γνωσιακή Συμπεριφορική Θεραπεία (ΓΣΘ)**:
+- Αναπλαισίωση των "άχρηστων" εργασιών ως ευκαιρίες για ανάπτυξη
+- Εύρεση νοήματος στη διαδικασία παρά στα αποτελέσματα
+- Οικοδόμηση ανοχής στην απογοήτευση
 
-**Acceptance and Commitment Therapy (ACT)**:
-- Accepting life's inherent challenges
-- Committing to values-driven action despite obstacles
-- Psychological flexibility in the face of futility
+**Θεραπεία Αποδοχής και Δέσμευσης (ΘΑΔ)**:
+- Αποδοχή των εγγενών προκλήσεων της ζωής
+- Δέσμευση σε δράση που καθοδηγείται από αξίες παρά τα εμπόδια
+- Ψυχολογική ευελιξία απέναντι στη ματαιότητα
 
-**Logotherapy (Viktor Frankl)**:
-- Finding meaning even in suffering
-- The freedom to choose one's attitude toward unchangeable circumstances
+**Λογοθεραπεία (Βίκτορ Φρανκλ)**:
+- Εύρεση νοήματος ακόμη και στον πόνο
+- Η ελευθερία να επιλέγεις τη στάση σου απέναντι σε αμετάβλητες συνθήκες
 
-### 4. **The Psychology of Work and Burnout**
+### 4. **Η Ψυχολογία της Εργασίας και του Επαγγελματικού Εξουθένωσης**
 
-The Sisyphean nature of modern work:
+Ο σισύφειος χαρακτήρας της σύγχρονης εργασίας:
 
-- **Burnout**: Emotional exhaustion from repetitive, seemingly meaningless tasks
-- **The Hedonic Treadmill**: Constantly pursuing goals that don't bring lasting satisfaction
-- **Workaholism**: Compulsive task completion without rest
-- **Flow State**: Paradoxically, finding joy in the challenge itself (Camus's "happy Sisyphus")
+- **Επαγγελματική Εξουθένωση**: Συναισθηματική εξάντληση από επαναλαμβανόμενες, φαινομενικά άνευ νοήματος εργασίες
+- **Ο Ηδονικός Τροχός**: Συνεχής επιδίωξη στόχων που δεν φέρνουν διαρκή ικανοποίηση
+- **Εθισμός στη Δουλειά**: Καταναγκαστική ολοκλήρωση εργασιών χωρίς ανάπαυση
+- **Κατάσταση Ροής**: Παραδόξως, εύρεση χαράς στην ίδια την πρόκληση (ο "ευτυχισμένος Σίσυφος" του Καμύ)
 
-### 5. **Neuroscience and Reward Systems**
+### 5. **Νευροεπιστήμη και Συστήματα Ανταμοιβής**
 
-The myth illustrates dopamine and motivation:
+Ο μύθος απεικονίζει τη ντοπαμίνη και το κίνητρο:
 
-- **Anticipation vs. Achievement**: The brain releases more dopamine during the pursuit than the attainment of goals
-- **Goal Gradient Effect**: Motivation increases as we approach completion (uphill) but crashes after achievement (boulder rolls down)
-- **Intrinsic vs. Extrinsic Motivation**: External rewards create Sisyphean cycles; intrinsic motivation sustains effort
+- **Προσδοκία έναντι Επίτευξης**: Ο εγκέφαλος απελευθερώνει περισσότερη ντοπαμίνη κατά τη διάρκεια της επιδίωξης παρά της επίτευξης στόχων
+- **Αποτέλεσμα Κλίσης Στόχου**: Το κίνητρο αυξάνεται καθώς πλησιάζουμε την ολοκλήρωση (ανηφόρα) αλλά καταρρέει μετά την επίτευξη (ο βράχος κυλάει κάτω)
+- **Εσωτερικό έναντι Εξωτερικού Κίνητρο**: Οι εξωτερικές ανταμοιβές δημιουργούν σισύφειους κύκλους· το εσωτερικό κίνητρο διατηρεί την προσπάθεια
 
-## Contemporary Relevance
+## Σύγχρονη Σχετικότητα
 
-### Modern "Sisyphean Tasks"
+### Σύγχρονες "Σισύφειες Εργασίες"
 
-- **Housework and Maintenance**: Cleaning, laundry, dishes—never truly "done"
-- **Email and Administrative Work**: The inbox that never stays empty
-- **Fitness and Health**: Ongoing effort with no final "completion"
-- **Parenting**: Constant care with evolving challenges
-- **Addiction Recovery**: Daily choice to resist, forever
+- **Δουλειές του Σπιτιού και Συντήρηση**: Καθαριότητα, πλυντήριο, πιάτα—ποτέ πραγματικά "ολοκληρωμένα"
+- **Email και Διοικητική Εργασία**: Τα εισερχόμενα που δεν μένουν ποτέ άδεια
+- **Φυσική Κατάσταση και Υγεία**: Συνεχής προσπάθεια χωρίς τελική "ολοκλήρωση"
+- **Γονεϊκή Μέριμνα**: Συνεχής φροντίδα με εξελισσόμενες προκλήσεις
+- **Ανάνηψη από Εξάρτηση**: Καθημερινή επιλογή αντίστασης, για πάντα
 
-### The Positive Reframe
+### Η Θετική Αναπλαισίωση
 
-Rather than despair, modern psychology suggests:
+Αντί για απελπισία, η σύγχρονη ψυχολογία προτείνει:
 
-1. **Process Over Product**: Value the activity itself
-2. **Mindfulness**: Be present during the "rolling" rather than obsessed with the summit
-3. **Small Wins**: Celebrate progress, not just perfection
-4. **Community**: Share the boulder (social support)
-5. **Choice**: Remember we choose our boulders (agency)
+1. **Διαδικασία αντί Προϊόντος**: Να εκτιμάς την ίδια τη δραστηριότητα
+2. **Ενσυνειδητότητα**: Να είσαι παρών κατά τη διάρκεια του "κυλίσματος" παρά εμμονή με την κορυφή
+3. **Μικρές Νίκες**: Να γιορτάζεις την πρόοδο, όχι μόνο την τελειότητα
+4. **Κοινότητα**: Να μοιράζεσαι τον βράχο (κοινωνική υποστήριξη)
+5. **Επιλογή**: Να θυμάσαι ότι επιλέγουμε τους βράχους μας (δράση)
 
-## Related Psychological Concepts
+## Σχετικές Ψυχολογικές Έννοιες
 
-- **Learned Helplessness** (Martin Seligman)
-- **The Hedonic Treadmill** (Brickman & Campbell)
-- **Flow** (Mihaly Csikszentmihalyi)
-- **Grit** (Angela Duckworth)
-- **Radical Acceptance** (Marsha Linehan, DBT)
-- **Stoicism** (Epictetus, Marcus Aurelius)
+- **Μαθημένη Αβοηθησία** (Μάρτιν Σέλιγκμαν)
+- **Ο Ηδονικός Τροχός** (Μπρίκμαν & Κάμπελ)
+- **Ροή** (Μιχάι Τσικσεντμιχάι)
+- **Επιμονή** (Άντζελα Ντάκγουορθ)
+- **Ριζοσπαστική Αποδοχή** (Μάρσα Λίνεχαν, ΔΣΘ)
+- **Στωικισμός** (Επίκτητος, Μάρκος Αυρήλιος)
 
-## Questions for Reflection
+## Ερωτήσεις για Προβληματισμό
 
-1. What are your personal "Sisyphean tasks"?
-2. Can you find meaning in repetitive aspects of your life?
-3. Do you focus more on achieving goals or engaging in the process?
-4. How do you maintain motivation when progress feels futile?
-5. What would it mean to "imagine yourself happy" in your struggles?
+1. Ποιες είναι οι προσωπικές σας "σισύφειες εργασίες";
+2. Μπορείτε να βρείτε νόημα σε επαναλαμβανόμενες πτυχές της ζωής σας;
+3. Εστιάζετε περισσότερο στην επίτευξη στόχων ή στη συμμετοχή στη διαδικασία;
+4. Πώς διατηρείτε το κίνητρο όταν η πρόοδος φαίνεται μάταιη;
+5. Τι θα σήμαινε να "φανταστείτε τον εαυτό σας ευτυχισμένο" στους αγώνες σας;
 
-## Further Reading
+## Περαιτέρω Ανάγνωση
 
-### Classical Sources
-- Homer, *Odyssey* (Book XI)
-- Ovid, *Metamorphoses*
+### Κλασικές Πηγές
+- Όμηρος, *Οδύσσεια* (Ραψωδία Λ')
+- Οβίδιος, *Μεταμορφώσεις*
 
-### Philosophical Works
-- Albert Camus, *The Myth of Sisyphus* (1942)
-- Jean-Paul Sartre, *Being and Nothingness*
+### Φιλοσοφικά Έργα
+- Άλμπερ Καμύ, *Ο Μύθος του Σίσυφου* (1942)
+- Ζαν-Πωλ Σαρτρ, *Το Είναι και το Μηδέν*
 
-### Psychological Perspectives
-- Viktor Frankl, *Man's Search for Meaning*
-- Martin Seligman, *Learned Optimism*
-- Mihaly Csikszentmihalyi, *Flow: The Psychology of Optimal Experience*
-- Angela Duckworth, *Grit: The Power of Passion and Perseverance*
+### Ψυχολογικές Προοπτικές
+- Βίκτορ Φρανκλ, *Ο Άνθρωπος στην Αναζήτηση Νοήματος*
+- Μάρτιν Σέλιγκμαν, *Μαθημένη Αισιοδοξία*
+- Μιχάι Τσικσεντμιχάι, *Ροή: Η Ψυχολογία της Βέλτιστης Εμπειρίας*
+- Άντζελα Ντάκγουορθ, *Επιμονή: Η Δύναμη του Πάθους και της Επιμονής*
 
 ---
 
-## Image Sources and References
+## Πηγές Εικόνων και Αναφορές
 
-- **Greek Wikipedia**: [Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82) - Original source of the amphora image
+- **Ελληνική Βικιπαίδεια**: [Σίσυφος](https://el.wikipedia.org/wiki/%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%82) - Αρχική πηγή της εικόνας του αμφορέα
 - **Wikimedia Commons**: [Nekyia Staatliche Antikensammlungen 1494](https://commons.wikimedia.org/wiki/File:Nekyia_Staatliche_Antikensammlungen_1494_n2.jpg)
-- **Wikimedia Commons**: [Category: Sisyphus in ancient Greek pottery](https://commons.wikimedia.org/wiki/Category:Sisyphus_in_ancient_Greek_pottery)
-- **Staatliche Antikensammlungen**, Munich
+- **Wikimedia Commons**: [Κατηγορία: Ο Σίσυφος στην αρχαία ελληνική κεραμική](https://commons.wikimedia.org/wiki/Category:Sisyphus_in_ancient_Greek_pottery)
+- **Staatliche Antikensammlungen**, Μόναχο
 - **World History Encyclopedia**: [Sisyphus](https://www.worldhistory.org/image/6158/sisyphus/)
 
 ---
 
-*"The struggle itself toward the heights is enough to fill a man's heart. One must imagine Sisyphus happy."*
-— Albert Camus, *The Myth of Sisyphus*
+*"Ο ίδιος ο αγώνας προς τα ύψη είναι αρκετός για να γεμίσει την καρδιά ενός ανθρώπου. Πρέπει να φανταστούμε τον Σίσυφο ευτυχισμένο."*
+— Άλμπερ Καμύ, *Ο Μύθος του Σίσυφου*
