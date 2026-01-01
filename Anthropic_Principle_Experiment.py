@@ -23,6 +23,15 @@ import csv
 from datetime import datetime
 import os
 
+# --- Window Setup ---
+# Create window first to ensure proper cleanup if dialog is cancelled
+win = visual.Window(
+    size=[1024, 768],
+    color=[0, 0, 0],
+    units='height',
+    fullscr=False
+)
+
 # --- Configuration Dialog ---
 exp_info = {
     'Participant ID': '',
@@ -32,6 +41,7 @@ exp_info = {
 
 dlg = gui.DlgFromDict(dictionary=exp_info, title='Anthropic Principle Experiment')
 if not dlg.OK:
+    win.close()
     core.quit()
 
 # --- Data Recording Setup ---
